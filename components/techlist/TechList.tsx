@@ -16,7 +16,7 @@ export const TechList = () => {
             icon={<Icon as={FaLock} boxSize="6" />}
           color="green.50"
           fontSize="lg"
-          fontWeight="semibold"
+          // fontWeight="semibold"
           >
            As a member of the Governance, Risk, and Compliance team at MSU, I perform vendor risk assessments, consult on security concerns for internal projects, and work with academic and administrative unit IT teams to recommend and help implement security best practices.
           </ListItem>

@@ -1,5 +1,6 @@
 import { Badge, Box, Button, Heading, Stack, Text, useColorModeValue } from '@chakra-ui/react'
 import * as React from 'react'
+import { NavBar } from './nav/NavBar'
 
 export const Layout = (props: any) => {
   return (

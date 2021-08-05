@@ -34,7 +34,7 @@ export const StoryButton = () => {
           </Button>
 
 
-      <Modal onClose={onClose} isOpen={isOpen} isCentered size="3xl">
+      <Modal onClose={onClose} isOpen={isOpen}  size="3xl">
         <ModalOverlay />
         <ModalContent bg="blackAlpha.800" rounded="3xl">
      

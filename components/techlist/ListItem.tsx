@@ -15,7 +15,7 @@ export const ListItem = (props: ListItemProps) => {
   return (
     <Stack as="li" direction="row" spacing="4" {...stackProps}>
       <Flex direction="column" alignItems="center" aria-hidden="true">
-        <Circle
+        {/* <Circle
           bg='green.500'
           size="12"
           borderWidth="4px"
@@ -23,8 +23,8 @@ export const ListItem = (props: ListItemProps) => {
           color={useColorModeValue('white', 'black')}
         >
           {icon}
-        </Circle>
-        {!isLastItem && <Flex flex="1" borderRightWidth="1px" mb="-12" />}
+        </Circle> */}
+        {/* {!isLastItem && <Flex flex="1" borderRightWidth="1px" mb="-12" />} */}
       </Flex>
       <Stack spacing="4" pt="1" flex="1">
         <Flex direction="column">

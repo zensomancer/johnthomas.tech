@@ -15,8 +15,7 @@ export const StoryList = () => {
             subTitle="Cybersecurity"
             icon={<Icon as={FaChalkboardTeacher} boxSize="6" />}
             color="green.50"
-            fontSize="lg"
-            fontWeight="semibold"
+          
           >
             Threat Modeling 101, Personal BC/DR, OPSEC for Activists
           </ListItem>
@@ -25,8 +24,7 @@ export const StoryList = () => {
             subTitle="Rival Theories"
             icon={<Icon as={FaDice} boxSize="6" />}
           color="green.50"
-          fontSize="lg"
-          fontWeight="semibold"
+         
           >
            I&apos;m currently working on a near-future tabletop roleplaying game that explores conflict in a solarpunk utopia.
           </ListItem>
@@ -35,8 +33,7 @@ export const StoryList = () => {
             subTitle="Vorpal Tales"
             icon={<Icon as={FaTwitch} boxSize="6" />}
             color="green.50"
-            fontSize="lg"
-            fontWeight="semibold"
+           
           >
             Vorpal Tales is a TTRPG liveplay show on Twich that streams every night of the week. I currently play on stream Thursday evenings and Saturday afternoons.
           </ListItem>

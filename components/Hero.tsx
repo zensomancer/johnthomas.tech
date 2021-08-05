@@ -1,6 +1,6 @@
 import { Badge, Box, Button, Heading, Stack, Text, useColorModeValue, Center, useDisclosure } from '@chakra-ui/react'
 import * as React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter, FaPaperPlane, FaPlus} from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaPaperPlane, FaPlus, FaInstagram} from 'react-icons/fa'
 
 import {
     Modal,
@@ -55,18 +55,24 @@ export const Hero = () => {
           maxW="lg"
           mx="auto"
         >
-        <Button as="a" href="https://github.com/zensomancer/" target="_blank">
-        <FaGithub size="30px"/>
-        </Button>
-        <Button as="a" href="https://linkedin.com/in/johnthomastech/" target="_blank">
-        <FaLinkedin size="30px"/>
+               <Button as="a" href="mailto:jt@johnthomas.tech" target="_blank">
+        <FaPaperPlane size="30px"/>
         </Button>
         <Button as="a" href="https://twitter.com/zensomancer" target="_blank">
         <FaTwitter size="30px"/>
         </Button>
-        <Button as="a" href="mailto:jt@johnthomas.tech" target="_blank">
-        <FaPaperPlane size="30px"/>
+     
+        <Button as="a" href="https://linkedin.com/in/johnthomastech/" target="_blank">
+        <FaLinkedin size="30px"/>
         </Button>
+
+        <Button as="a" href="https://github.com/zensomancer/" target="_blank">
+        <FaGithub size="30px"/>
+        </Button>
+        <Button as="a" href="https://instagram.com/zensomancer/" target="_blank">
+        <FaInstagram size="30px"/>
+        </Button>
+      
         </Stack>
         <Stack
           direction={{ base: 'column', sm: 'row' }}
