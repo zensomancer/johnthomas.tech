@@ -23,7 +23,7 @@ export const Hero = () => {
         px={{ base: '6', lg: '8' }}
         py={{ base: '16', sm: '10' }}
         textAlign="center"
-        bg="blackAlpha.700"
+       
         rounded="3xl"
       >
         <Heading
@@ -48,7 +48,7 @@ export const Hero = () => {
          {' '} THOMAS
         </Heading> 
         <Stack
-          direction={{ base: 'column', sm: 'row' }}
+          direction={{ base: 'row', sm: 'row' }}
        
           justify="center"
           spacing={{ base: '3', md: '3' }}
