@@ -28,7 +28,7 @@ export const StoryList = () => {
           fontSize="lg"
           fontWeight="semibold"
           >
-           I'm currently working on a near-future tabletop roleplaying game that explores conflict in a solarpunk utopia.
+           I&apos;m currently working on a near-future tabletop roleplaying game that explores conflict in a solarpunk utopia.
           </ListItem>
           <ListItem
             title="Cast Member"

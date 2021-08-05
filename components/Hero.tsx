@@ -43,7 +43,7 @@ export const Hero = () => {
             whiteSpace="nowrap"
          
           >
-           'JT'
+           &apos;JT&apos;
           </Box>
          {' '} THOMAS
         </Heading> 
