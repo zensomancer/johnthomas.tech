@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>John Thomas</title>
         <meta name="description" content="Technologist & Storyteller" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
 
       

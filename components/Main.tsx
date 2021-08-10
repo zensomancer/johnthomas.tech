@@ -14,22 +14,10 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 import * as React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaPaperPlane,
-  FaPlus,
-  FaInstagram,
-} from "react-icons/fa";
 import "@fontsource/passion-one";
 import { SocialMediaLinks } from "./footer/SocialMediaLinks";
-import { Features } from "./Features"
-
-
 
 export const Main = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box as="section">
       <Box
