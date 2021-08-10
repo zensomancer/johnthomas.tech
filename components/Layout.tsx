@@ -4,7 +4,8 @@ import { NavBar } from './nav/NavBar'
 
 export const Layout = (props: any) => {
   return (
-    <Box bgImage="/bg.jpg" minH="100vh" h="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+    <Box bg="gray.900"   color="gray.100"  bgPos="center" minH="100vh" h="100%" display="flex" flexDirection="column" >
+      <NavBar/>
       {props.children}
     </Box>
   )

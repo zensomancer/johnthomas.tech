@@ -49,7 +49,7 @@ const MobileSubMenu = (props: SubmenuProps) => {
   const { isOpen, onToggle } = useDisclosure()
 
   return (
-    <Box>
+    <Box bg="gray.900">
       <NavLink.Mobile
         as="button"
         textAlign="start"

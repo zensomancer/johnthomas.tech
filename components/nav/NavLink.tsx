@@ -15,14 +15,16 @@ const DesktopNavLink = React.forwardRef<HTMLAnchorElement, NavLinkProps>((props,
       py="6"
       fontSize="xl"
       fontWeight="black"
+      letterSpacing="wider"
+      
       aria-current={active ? 'page' : undefined}
-      color="green.50"
+      color="gray.50"
       transition="all 0.2s"
       {...rest}
       _hover={{ color: 'gray.500' }}
-      _active={{ color: 'green.600' }}
+      _active={{ color: 'gray.600' }}
       _activeLink={{
-        color: 'green.600',
+        color: 'purple.600',
         fontWeight: 'bold',
       }}
     />
@@ -36,6 +38,7 @@ export const MobileNavLink = (props: NavLinkProps) => {
     <chakra.a
       aria-current={active ? 'page' : undefined}
       w="full"
+      
       display="flex"
       alignItems="center"
       height="14"

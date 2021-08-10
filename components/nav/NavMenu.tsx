@@ -17,7 +17,7 @@ export const NavMenu = React.forwardRef<HTMLDivElement, MotionBoxProps>((props, 
     pos="absolute"
     insetX="0"
     pt="6"
-    pb="12"
+    pb="6"
     {...props}
   />
 ))

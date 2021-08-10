@@ -6,6 +6,7 @@ import {
   HStack,
   useDisclosure,
   VisuallyHidden,
+  Text,
   useColorModeValue as mode,
 } from '@chakra-ui/react'
 import * as React from 'react'
@@ -21,19 +22,28 @@ const MobileNavContext = (props: FlexProps) => {
   return (
     <>
       <Flex align="center" justify="space-between" className="nav-content__mobile" {...props}>
-        <Box flexBasis="6rem">
+      <Box as="a" rel="home">
+      <Box
+            as="a" href="/"
+            bg="unset"
+            fontWeight="black"
+            color='purple.300'
+            whiteSpace="nowrap"
+            fontFamily="Passion One"
+            letterSpacing="wide"
+          >
+           JOHN THOMAS
+          </Box>
+        </Box>
+      <Box>
           <ToggleButton isOpen={isOpen} onClick={onToggle} />
         </Box>
-        <Box as="a" rel="home" mx="auto">
-          <Logo h="24px" iconColor="blue.400" />
-        </Box>
-        <Box visibility={{ base: 'hidden', sm: 'visible' }}>
-          <Button as="a" colorScheme="blue">
-            Get Started
-          </Button>
-        </Box>
+    
+        
+        
+      
       </Flex>
-      <NavMenu animate={isOpen ? 'open' : 'closed'}>
+      <NavMenu animate={isOpen ? 'open' : 'closed'}  bg="gray.900">
         {links.map((link, idx) =>
           link.children ? (
             <Submenu.Mobile key={idx} link={link} />
@@ -43,9 +53,6 @@ const MobileNavContext = (props: FlexProps) => {
             </NavLink.Mobile>
           ),
         )}
-        <Button colorScheme="blue" w="full" size="lg" mt="5">
-          Try for free
-        </Button>
       </NavMenu>
     </>
   )
