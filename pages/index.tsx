@@ -1,15 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 // import styles from '../sty  les/Home.module.css'
-import { Main } from '../components/Main'
-import { LayoutMain } from '../components/LayoutMain'
+import { Main } from "../components/Main";
+import { LayoutMain } from "../components/LayoutMain";
 
 export default function Home() {
-
- 
-
-
-
   return (
     <LayoutMain>
       <Head>
@@ -18,10 +13,7 @@ export default function Home() {
         <link rel="icon" href="/icon.png" />
       </Head>
 
-      
-       <Main/>
- 
-
-      </LayoutMain>
-  )
+      <Main />
+    </LayoutMain>
+  );
 }
