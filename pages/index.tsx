@@ -11,6 +11,9 @@ export default function Home() {
         <title>John Thomas</title>
         <meta name="description" content="Technologist & Storyteller" />
         <link rel="icon" href="/icon.png" />
+        <script defer data-domain="johnthomas.tech" src="https://plausible.io/js/plausible.js"></script>
+
+
       </Head>
 
       <Main />
